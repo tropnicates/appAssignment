@@ -2,11 +2,13 @@
   "name": "assignment",
   "version": "0.0.1",
   "private": true,
-"scripts": {
-  "start": "react-scripts start",
-  "build": "NODE_OPTIONS=--max_old_space_size=4096 react-scripts build",
-  "test": "react-scripts test"
-},
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "start": "react-native start",
+    "test": "jest"
+  },
   "dependencies": {
     "@expo/vector-icons": "^14.0.4",
     "@fortawesome/free-solid-svg-icons": "^6.6.0",
