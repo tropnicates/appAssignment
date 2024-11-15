@@ -1,4 +1,3 @@
-// src/data/Pincodes.js
 import { parse } from 'papaparse';
 
 const pincodesCsv = `

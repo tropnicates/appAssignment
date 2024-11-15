@@ -1,4 +1,3 @@
-// src/data/DataLoader.js
 import { loadProducts } from './Products';
 import { loadPincodes } from './Pincodes';
 import { loadStock } from './Stock';
